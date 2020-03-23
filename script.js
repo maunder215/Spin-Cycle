@@ -93,12 +93,12 @@ function boxGen(){
       }
     // }
     // if(boxVals[boxVals.length -1].side == 1){
-      if(boxVals[boxVals.length -1].yval - 200 < canvas.height){
+      if(boxVals[boxVals.length -1].yval - 200 > canvas.height){
         skip.push(1);
       }
     // }
     // if(boxVals[boxVals.length -1].side == 2){
-      if(boxVals[boxVals.length -1].xval + 200 > canvas.height){
+      if(boxVals[boxVals.length -1].xval + 200 < canvas.height){
         skip.push(2);
       }
     // }
