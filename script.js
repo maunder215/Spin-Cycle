@@ -166,7 +166,7 @@ function go(){
     startBox.yval = y - 20;
     boxVals[0] = startBox;
     drawBox(startBox.xval, startBox.yval);
-    for(var i = 0; i < 20; i++){
+    for(var i = 0; i < 40; i++){
       boxGen();
     }
     setInterval(update,1000/speed);
