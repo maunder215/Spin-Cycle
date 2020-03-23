@@ -32,7 +32,7 @@ function hide(){
   document.getElementById("btn3").style.display = 'none'; 
   // canvas.requestFullscreen();
   canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas.height = window.innerHeight-100;
 
   go();
 }
