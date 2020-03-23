@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, height=device-height, user-scalable=no">
+  
+	<title>The Spin Cycle</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+<button onclick="hide()" on-tap="go()" class="hide" id="hideMe">Start</button>
+<button onclick="easy()" on-tap="easy()" class="btn" id="btn1">Easy</button>
+<button onclick="medium()" on-tap="medium()" class="btn" id="btn2">Medium</button>
+<button onclick="expert()" on-tap="expert()" class="btn" id="btn3">Expert</button>
+</head>
+<body onload="draw()">
+  <h1> <span id="count"></span></h1>
+  <canvas onclick="flip()" id="game"></canvas>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+.c-body {
+    color: #ffffff;
+    /*background: #150303; */
+    background-image: "black_thumbnail.jpg";
+  background-size: device-size ; 
+}
+
+.title { 
+    margin: 90px auto;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 0 0 20px;
+    font-size: 400%
+}
+.h2{ 
+    margin: 90px auto;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 0 0 20px;
+    font-size: 400%
+}
+#tite {
+    color: yellow;
+}
+#tite2 {
+    color: red;
+    font: Impact; 
+    text-shadow: none;
+    font-style: oblique;
+}
+
+.nav{
+  display: none;
+}
+
+.button {
+    list-style: none;
+    width: 250px;
+    height:48px;
+    line-height: 48px;
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 125px);
+    border: 1px solid #1176FA;
+    background-color: #0112FE;
+    font-size: 32px;
+    text-shadow: #3333FF 4px 4px 4px;
+    cursor: pointer;
+
+    box-shadow: inset 0 0 20px rgba(47, 123, 254,0);
+    outline: 3px solid;
+    outline-color: rgba(47,123, 254, 0.8);
+    transition: outline 2s, box-shadow 2s, text-shadow 2s cubic-bezier(0.19,1,0.22,1);
+    
+}
+.button--About:hover {
+        
+    box-shadow: inset 0 0 30px rgba(231, 232, 234,0.2), inset 0 0 40px rgba(231, 232, 234,0.2);
+    outline-color: rgba(47,123, 254, 0.8);
+    outline-offset: 25px;
+    text-shadow: #E1DEDC 1px 1px 2px;
+    transition: all 1s cubic-bezier(0.19,1,0.22,1);
+}
+
+.button--Play:hover {
+        
+    box-shadow: inset 0 0 300px rgba(231, 232, 234,0.2), inset 0 0 40px rgba(231, 232, 234,0.2);
+    outline-color: rgba(254, 1, 1,0.8);
+    outline-offset: 25px;
+    text-shadow: #E1DEDC 1px 1px 2px;
+    transition: all 1s cubic-bezier(0.19,1,0.22,1);
+
+    
+}
+
+
+
+.button--Back {
+    position: fixed;
+    bottom: 5px;
+    left: 12px;
+    color: #ffffff;
+    border: 1px solid  rgb(1, 254, 254);
+    background-color: rgb(4, 228, 23);
+    box-shadow: inset 0 0 20px rgba(9, 254, 1, 0);
+    outline-color: rgba(94, 254, 1, 0.8);
+    
+}
+ .button--Play {
+    top : 250px;
+    color: #ffffff;
+
+}
+.button--About {
+    top: 350px;
+    border: 1px solid #EA4E4E;
+    background-color: #FE0101;
+    text-shadow: #FE0101 4px 4px 4px;
+    box-shadow: inset 0 0 20px rgba(254, 94, 1,0);
+    outline-color: rgba(254, 94, 1,0.8);
+    color: #ffffff;
+
+}
+    
+.u--visible {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    visibility: visible;
+    top:0;
+    left:0;
+    opacity: 1;
+    filter: blur(0);
+    transition: filter 1s, opacity 1s;
+
+}
+
+.u--blur-fadeout {
+    visibility: hidden;
+    filter: blur(30px);
+    opacity:0;
+    transition: filter 1s, opacity 1s;
+}
+
+#myDiv {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightgreen;
+    margin-top: 20px;
+
+}
+.button--Easy:hover {
+        
+    box-shadow: inset 0 0 30px rgba(231, 232, 234,0.2), inset 0 0 40px rgba(231, 232, 234,0.2);
+    outline-color: rgba(47,123, 254, 0.8);
+    outline-offset: 25px;
+    text-shadow: #E1DEDC 1px 1px 2px;
+    transition: all 1s cubic-bezier(0.19,1,0.22,1);
+}
+
+.button--Normal:hover {
+        
+    box-shadow: inset 0 0 300px rgba(231, 232, 234,0.2), inset 0 0 40px rgba(231, 232, 234,0.2);
+    outline-color: rgba(254, 1, 1,0.8);
+    outline-offset: 25px;
+    text-shadow: #E1DEDC 1px 1px 2px;
+    transition: all 1s cubic-bezier(0.19,1,0.22,1);
+
+    
+}
+
+.button--Expert:hover {
+        
+    box-shadow: inset 0 0 60px rgb(230, 230, 230), inset 0 0 70px rgb(230, 230, 230);
+    outline-color: rgb(230, 230, 230);
+    outline-offset: 25px;
+    text-shadow: #E1DEDC 1px 1px 2px;
+    transition: all 1s cubic-bezier(0.19,1,0.22,1);
+
+
+}
+
+ .button--Easy {
+    top : 250px;
+
+}
+.button--Normal {
+    top: 350px;
+    border: 1px solid #EA4E4E;
+    background-color: #FE0101;
+    text-shadow: #FE0101 4px 4px 4px;
+    box-shadow: inset 0 0 20px rgba(254, 94, 1,0);
+    outline-color: rgba(254, 94, 1,0.8);
+
+}
+
+.button--Expert {
+    top: 450px;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(204, 204, 204);
+    text-shadow: rgb(204, 204, 204) 4px 4px 4px;
+    box-shadow: inset 0 0 20px rgb(230, 230, 230);;
+    outline-color: rgb(204, 204, 204);
+
+}
+/* Game Over screen */
+
+#option1 {
+    list-style: none;
+    width: 250px;
+    height:48px;
+    line-height: 48px;
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 125px);
+    border: 1px solid silver;
+    background-color: silver;
+    font-size: 32px;
+    text-shadow: silver 4px 4px 4px;
+    cursor: pointer;
+    top: 350px;
+    color: black;
+    border-color: silver;
+    outline-color: silver;
+    
+
+}
+
+#option2 {
+    list-style: none;
+    width: 250px;
+    height:48px;
+    line-height: 48px;
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 125px);
+    border: 1px solid silver;
+    background-color: silver;
+    font-size: 32px;
+    text-shadow: silver 4px 4px 4px;
+    cursor: pointer;
+    top: 450px;
+    color: black;
+    outline-color: silver;
+}
