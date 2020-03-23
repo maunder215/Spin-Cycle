@@ -310,7 +310,7 @@ function update(){
   //this.ctx.arc(boxVals[0].xval, boxVals[0].yval, r, 0, 2 * Math.PI, false);
   this.ctx.lineWidth = 2;
   this.ctx.fill()  
-  // document.getElementById("count").innerHTML = count;
+  document.getElementById("count").innerHTML = count;
 
   ctx3.fillStyle = "black";
   ctx3.font = "50px Arial";
