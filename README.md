@@ -2,4 +2,4 @@
 Spin to win
 
 # Play
-Play at: https://miroh215.github.io/Spin-Cycle/index.html
+Play at: https://maunder215.github.io/Spin-Cycle/index.html
